@@ -49,10 +49,10 @@ def turn(board)
   
   while !valid_move?(board, index)
     turn(board)
-    
+  end
     
     move(board, index)
     display_board(board)
-  end
+
   
 end
